@@ -3,3 +3,23 @@
     min-height: 606px;
     // Be sure to nest any custom classes on child elements to avoid conflicts
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+  .text-black {
+    color: #000000;
+  }
+
+  .submitButton{
+    background-color: #d9db2c;
+    border: none;
+    padding: 7px 25px;
+  }
+
+  .resultsContainer{
+    background-color: #133343;
+  }
